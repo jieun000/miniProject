@@ -7,3 +7,93 @@
     box-sizing: border-box;
     font-family: 'Gowun Dodum', sans-serif;
 }
+/* 메뉴내비 */
+.list-group {
+    display: none;
+}
+.show {
+    display: block;
+}
+.navi {
+    /* display: flex; */
+}
+
+
+/* 맨위에 */
+.h-nav ul li {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 20px;
+  }
+a {
+    text-decoration: none;
+}
+
+/* 캐러셀 */
+.carousel {
+    width: 300vw;
+    transition: all 1s;
+}
+.box {
+    width: 100vw;
+    float: left;
+}
+.box img {
+    width: 100%;
+}
+.wrapper {
+    overflow: hidden;
+    text-align: center;
+}
+/* .wrapper button {
+    position: relative;
+} */
+
+
+footer {
+    border: 1px solid black;
+    display: flex;
+}
+.f-nav ul{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    /* transition: ?; */
+}
+
+/* 이동식버튼 */
+.nb {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    margin: 20px;
+  }
+  #dark {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-top: 1.5px;
+    margin-right: 5px;
+ }
+ #dark:hover {
+    background-color: #222;
+    color: white;
+ }
+
+  .btn-top i {
+    border: 1px solid lightgray;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    color: gray;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+  }
+  .btn-top i:hover {
+    background-color: #222;
+    color: white;
+  }
+
