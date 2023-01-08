@@ -11,13 +11,13 @@
 </head>
 <body>
     <header>
-        <!-- bootstrap -->
+        <!-- bootstrap 상단내비바-->
         <nav class="navbar navbar-dark bg-dark">
-          
+          <!-- 상단 로고 -->
           <div class="logo">
-            <img src="https://via.placeholder.com/100x50">
+            <img src="img/일러스트.png" width="100px 50px">
           </div>
-
+          <!-- 상단 내비 -->
           <div class="navi">
                   <nav class="h-nav">
                     <ul>
@@ -25,7 +25,7 @@
                         <a href="">사이트 소개</a>
                       </li>
                       <li>
-                        <a href="">로그인/회원가입</a>
+                        <a href="">내비</a>
                       </li>
                       <li>
                         <form>
@@ -34,37 +34,37 @@
                         </form>
                       </li>
                    </ul>
-                   <!-- <div class="container-fluid"> -->
+                  
                     <button class="navbar-toggler" type="button">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <!-- </div> -->
                   </nav>    
           </div>
 
         </nav>
       </header>
-
+      <!-- 내비 속 목록 -->
         <ul class="list-group">
-            <a href=""><li class="list-group-item">메뉴</li></a>
-            <a href=""><li class="list-group-item">메뉴</li></a>
-            <a href=""><li class="list-group-item">메뉴</li></a>
-            <a href=""><li class="list-group-item">메뉴</li></a>
-            <a href=""><li class="list-group-item">메뉴</li></a>
+            <a href=""><li class="list-group-item">메뉴 1</li></a>
+            <a href=""><li class="list-group-item">메뉴 2</li></a>
+            <a href=""><li class="list-group-item">메뉴 3</li></a>
+            <a href=""><li class="list-group-item">메뉴 4</li></a>
+            <a href=""><li class="list-group-item">메뉴 5</li></a>
         </ul>
     
+        <!-- 캐러셀 -->
     <content>
         <section>
           <div class="wrapper">
             <div class="carousel">
               <div class="box">
-                  <img src="https://via.placeholder.com/1000x300/f0f0f0">
+                  <img src="https://via.placeholder.com/1000x300/f0f0f0" height="500px">
               </div>
               <div class="box">
-                  <img src="https://via.placeholder.com/1000x300">
+                  <img src="https://via.placeholder.com/1000x300" height="500px">
               </div>
               <div class="box">
-                  <img src="https://via.placeholder.com/1000x300/000">
+                  <img src="https://via.placeholder.com/1000x300/000000" height="500px">
               </div>
             </div>
               <button class="previous"><i class="fa-solid fa-chevron-left"></i></button>
@@ -74,21 +74,86 @@
               <button class="next"><i class="fa-solid fa-chevron-right"></i></button>
           </div>
         </section>
-    
-        <section>
-          <div class="login">
-            <img src="https://via.placeholder.com/500x400">
-          </div>
-          <div>
 
-          </div>    
+        <!-- 시간 & 모달 -->
+        <section>
+          <div class="section2">
+           오늘이 끝나기까지 <span class="clock"></span>! <p></p>
+           <!-- 로그인 모달 -->
+           <div class="black-bg">
+            <div class="white-bg">
+              <!-- 내용 -->
+              <button class="close-btn"> X </button>
+              <button class="modal-today-close"> 오늘 하루 동안 보지 않기 </button> 
+              <div class="loginWrap">
+                <form>
+                    <div class="lw">
+                    <input type="text" name="id" placeholder="아이디" required>
+                    <input type="password" name="pw" placeholder="비밀번호" required>
+                    <input type="submit" class="submit" value="로그인">
+                    </div>
+                    <div class="stateIpWrap">
+                      <div class="stateLeft">
+                          <input type="checkbox" name="state" id="state">
+                          <label for="state">로그인 상태 유지</label>
+                      </div>
+                      <div class="ipRight">
+                          <label for="ip">IP 보안</label>
+                          <input type="checkbox" name="ip" id="ip">
+                      </div>
+                    </div>
+                </form>
+              </div>
+              <div class="loginWrap2">
+                <div>
+                    <a href="">kakao</a>
+                    <a href="">line</a>
+                </div>
+              </div>
+              <div class="searchWrap">
+                <a href="">아이디 찾기</a>
+                <a href="">비밀번호 찾기</a>
+                <a href="">회원가입</a>
+              </div>
+            </div>
+          </div>
+        <button class="play-btn"><b>지금 바로 로그인/회원가입</b></button>
+      </div>
+        </section>
+
+        <!-- 목차 -->
+        <section>
+          <div class="t">
+            <table>
+                <caption><h4>지금 관심사는 여기</h4><br></caption>
+                <tr>
+                    <td colspan="6"><a href="">전체글</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">지금 올라온 글</a></td>
+                    <td><a href="">인문</a></td>
+                    <td><a href="">사회</a></td>
+                    <td><a href="">반려 동물</a></td> 
+                    <td><a href="">패션/잡지</a></td>
+                    <td><a href="">건강/운동</a></td>
+                </tr>
+                <tr>
+                    <td><a href="">과학/IT</a></td>
+                    <td><a href="">가정/육아</a></td>
+                    <td><a href="">경제/경영</a></td>
+                    <td><a href="">여행/에세이</a></td>
+                    <td><a href="">기술/공학</a></td>
+                    <td><a href="">예술/문화</a></td>
+                </tr>
+            </table>
         </section>
       </content>
 
+      <!-- 하단 -->
       <footer>
         <div class="f-logo">
-            <img src="https://via.placeholder.com/100x50">
-            story
+            <img src="img/일러스트.png" width="100px 50px">
+            Copyright ⓒ Happy New Year 
           </div>
 
         <nav class="f-nav">
@@ -105,11 +170,12 @@
           <ul>
             <li><a href=""><b>SNS</b></a></li>
             <li><a href="">Kakao</a></li>
-            <li><a href="">Instar</a></li>
+            <li><a href="">Instagram</a></li>
           </ul>
         </nav>
       </footer>
 
+      <!-- 이동식 버튼 -->
     <div class="nb">
       <div class="darkmode">
         <div id="dark" title="시력 보호">
@@ -123,6 +189,6 @@
       
 <!-- bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-<script src="js/script.js"></script>`
+<script src="js/script.js"></script>
 </body>
 </html>
