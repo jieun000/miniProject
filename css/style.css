@@ -97,7 +97,7 @@ a {
     /* line-height: 50px; */
     padding-top: 100px;
     text-align: center;
-    background: url(img/frame-3.jpg);
+    background: url("/img/frame-3.jpg");
     color: black;
 }
 /* 로그인 모달 */
